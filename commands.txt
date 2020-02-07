@@ -1,0 +1,16 @@
+git add test.txt
+git commit -m "feat: create text file"
+git remote add origin https://github.com/Vlakiz/gittask
+git push origin master
+git checkout -b develop
+git checkout -b develop1
+git add test.txt
+git commit -m "feat: add text in txt filec"
+git push origin develop1
+git clone https://github.com/Vlakiz/gittask
+cd gittask
+git checkout -b develop2
+git add test.txt
+git commit -m "feat: add another text in txt filec"
+git push origin develop2
+git checkout develop
